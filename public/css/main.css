@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+body {
+  font-size:14px;
+  font-family: Verdana, Meiryo, 'メイリオ', Hiragino Kaku Gothic Pro, sans-serif;
+}
+
+h1 {
+  font-size: 20px !important;
+  padding-bottom: 0 !important;
+  color: #585858 !important;
+}
+
+h2 {
+  color: #FFFFFF !important;
+  font-size: 17px !important;
+  font-family: 'ヒラギノ角ゴ Pro', 'Hiragino Kaku Gothic Pro', sans-serif;
+  font-weight: bold;
+}
+
+
+/* フッターナビゲーション */
+nav.navbar-inverse, nav.navbar-static-top {
+  background-color: #232F3E;
+}
+
+
+
+/* フッターエリア */
+#footer div.top-page {
+  background-color: #37475a;
+  text-align: center;
+  padding: 14px 0;
+}
+
+#footer div.top-page:hover {
+  background-color: #485769;
+}
+
+#footer div.about {
+  background-color: #232F3E;
+  padding-bottom: 25px;
+  padding-top: 10px;
+}
+
+#footer section a {
+  font-size: 13px;
+  color: #CACBCD;
+}
+
+#footer section.fnav-center {
+  display: inline-block;
+  padding: 0 45px;
+}
+
+#footer ul.fnav-top-space {
+  background-color: #131A22;
+  padding: 20px 0;
+}
+
+#footer ul.fnav a {
+  color: #DDDDDD;
+}
+
+#footer ul li.fnav {
+  padding: 0 30px;
+}
+
+
+div.copyright {
+  background-color: #131A22;
+  text-align: center;
+}
+
+#footer ul li {
+  display: inline-block;
+  padding: 0 7px;
+}
+
+#footer ul.footer-nav {
+  padding-bottom: 40px;
+}
+
+#footer li.privacy {
+  padding: 0 10px;
+  border-right: solid 1px #DDDDDD;
+  border-left: solid 1px #DDDDDD;
+}
+
+#footer a {
+  color: #DDDDDD;
+  font-size: 11px;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  text-decoration: underline;
+}
+
+small {
+  color: #545659;
+  font-size: 12px;
+}
