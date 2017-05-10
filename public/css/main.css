@@ -2,7 +2,7 @@
 
 body {
   font-size:14px;
-  font-family: Verdana, Meiryo, 'メイリオ', Hiragino Kaku Gothic Pro, sans-serif;
+  font-family: Verdana, 'Meiryo', 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;
 }
 
 h1 {
@@ -17,6 +17,77 @@ h2 {
   font-family: 'ヒラギノ角ゴ Pro', 'Hiragino Kaku Gothic Pro', sans-serif;
   font-weight: bold;
 }
+
+/* ヘッダーエリア */
+
+/* スライド画像の設定  */
+#header ul li {
+  list-style: none;
+}
+
+.header-images-01,
+.header-images-02,
+.header-images-03,
+.header-images-04,
+.header-images-05,
+.header-images-06,
+.header-images-07,
+.header-images-08 {
+  max-width: 1500px;
+  min-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+  width: 1250px;
+  height: 550px;
+}
+
+.header-images-01 {
+  background-image: url("../images/slick-image/header_image01.jpg");
+  background-size: cover;
+  display: block;
+}
+
+.header-images-02 {
+  background-image: url("../images/slick-image/header_image02.jpg");
+  background-size: cover;
+  display: block;
+}
+
+.header-images-03 {
+  background-image: url("../images/slick-image/header_image03.jpg");
+  background-size: cover;
+  display: block;
+}
+
+.header-images-04 {
+  background-image: url("../images/slick-image/header_image04.jpg");
+  background-size: cover;
+  display: block;
+}
+
+.header-images-05 {
+  background-image: url("../images/slick-image/header_image05.jpg");
+  background-size: cover;
+  display: block;
+}
+
+.header-images-06 {
+  background-image: url("../images/slick-image/header_image06.jpg");
+  background-size: cover;
+  display: block;
+}
+
+/*.header-images-07 {*/
+/*  background-image: url("../images/slick-image/header_image07.jpg");*/
+/*  background-size: cover;*/
+/*  display: block;*/
+/*}*/
+
+/*.header-images-08 {*/
+/*  background-image: url("../images/slick-image/header_image08.jpg");*/
+/*  background-size: cover;*/
+/*  display: block;*/
+/*}*/
 
 
 /* フッターナビゲーション */

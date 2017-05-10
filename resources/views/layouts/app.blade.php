@@ -10,6 +10,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>jQuery.com</title>
     <link rel="stylesheet" href="../css/main.css">
+    <!-- slick-css -->
+    <link rel="stylesheet" href="../css/slick-css/common-slick.css" type="text/css">
+    <link rel="stylesheet" href="../css/slick-css/slick.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../css/slick-css/slick-theme.css" type="text/css" media="screen" />
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!-- favicon -->
@@ -34,19 +38,21 @@
     <link rel="manifest" href="../favicon/manifest.json">
     <meta name="msapplication-TileColor" content="#2d88ef">
     <meta name="msapplication-TileImage" content="../favicon/mstile-144x144.png">
-    <style>
-
-    </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../js/main.js"></script>
+    <!-- slick-js -->
+    <script type="text/javascript" src="../js/slick-js/slick.min.js"></script>
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
   <body>
-    <header id="header">@include('commons.navbar')</header><!-- /#header -->
+    <header id="header">
+      @include('commons.navbar')
+      @include('commons.slider')  
+    </header><!-- /#header -->
 
       
     <div class="container">
